@@ -1,5 +1,5 @@
 import os
-from util.debugger import MyDebugger
+# from util.debugger import MyDebugger
 # from interfaces.qt_plot import Plotter
 from tiling.tile_graph import TileGraph, find_candidate_tile_locations, get_all_tiles
 import tiling.tile_factory as factory
@@ -26,8 +26,8 @@ from tiling.brick_layout import BrickLayout
 
 if __name__ == '__main__':
     # Driver code
-    MyDebugger.pre_fix = os.path.join(MyDebugger.pre_fix, "debug")
-    debugger = MyDebugger(f"gen_tile_graph_{config.env_name}", fix_rand_seed=0, save_print_to_file=False)
+    # MyDebugger.pre_fix = os.path.join(MyDebugger.pre_fix, "debug")
+    # debugger = MyDebugger(f"gen_tile_graph_{config.env_name}", fix_rand_seed=0, save_print_to_file=False)
     # plotter = Plotter()
     data_env = config.environment
 
